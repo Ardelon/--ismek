@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+header {
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+header img {
+    max-width: 100%;
+}
+
+.identity-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc !important;
+    padding: 12px 24px !important;
+    color: #f1f1f1 !important;
+}
+
+.identity-container h1 {
+    font-size: 48px ;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    text-align: center !important;
+}
+
+.identity-container h3 {
+    font-size: 24px !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center !important;
+    letter-spacing: 4px;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    z-index: 1;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    float: left;
+    color: #000 !important;
+}
+
+nav a:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+
+}
+
+main {
+    /* box-sizing: border-box; */
+    padding: 12px 24px;
+
+    box-sizing: border-box;
+    margin: 16px auto 0;
+    display: block;
+    position: relative;
+    max-width: 980px;
+
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer {
+    max-width: 932px;
+    margin: 16px auto;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    padding: 32px 24px;
+    box-sizing: border-box;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form button {
+    width: 100%;
+    color: #fff !important;
+    background-color: #616161 !important;
+    padding: 8px 16px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1.5;
+}
+
+.form button:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.id-duo {
+    display: block;
+    margin: 16px 0;
+
+}
+
+.id-duo label {
+    display: block;
+
+}
+
+.id-duo input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc !important;
+    padding: 8px;
+    font-size: 15px;
+}
+
+footer span {
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width: 992px) {
+    .identity-container h1 {
+        font-size: 18px;
+        white-space: nowrap;
+        
+    }
+
+    .identity-container h3 {
+        display: none;
+    }
+
+    .identity-container {
+        transform: translate(-50%, -100%);
+    }
+
+ 
+
+
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        position: relative;
+        min-height: 44px;
+        padding: 16px 0;
+        transform: translate(0,-6px);
+        left : 0;
+        justify-content: center;
+        border-radius: 0px;
+
+
+    }
+
+
+}
