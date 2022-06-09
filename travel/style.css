@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+
+}
+
+.header div {
+    position: absolute;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    padding: 10px 16px;
+    color: #000 !important;
+    background-color: #ffc107 !important;
+    box-sizing: border-box;
+    bottom: 10%;
+    opacity: 0.7;
+    width: 70%;
+}
+
+.header div h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header div:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important;
+}
+
+.row {
+    display: flex;
+    margin: 50px 0;
+    flex-direction: row;
+    padding: 0.01em 16px;
+    position: relative;
+}
+
+.row div {
+    padding: 0.01em 16px;
+    width: 49.99999%;
+    position: relative;
+}
+
+.row div div {
+    position: absolute;
+    background-color: #ffc107;
+    width: calc(100% - 32px);
+    height: 5px;
+    box-sizing: border-box;
+    top: -4px;
+}
+
+.row div img {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.row div h2 {
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        
+    }
+
+    .row div {
+        padding: 0.01em 16px;
+        width: calc(100% - 32px)
+    }
+
+  
+ }
