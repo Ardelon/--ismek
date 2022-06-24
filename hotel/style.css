@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1!;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+section {
+	max-width: 1500px;
+	margin: auto;
+}
+header {
+	color: #000 !important;
+	background-color: #fff !important;
+	font-size: 18px !important;
+	width: 100%;
+	display: flex;
+}
+
+header a {
+	padding: 8px 16px;
+	float: left;
+	width: auto;
+	border: none;
+	display: block;
+	outline: 0;
+	text-decoration: none;
+	color: #000 !important;
+}
+
+header a:first-child {
+	color: #fff !important;
+	background-color: #f44336 !important;
+}
+
+header a:last-child {
+	background-color: #ccc !important;
+	position: absolute;
+	right: 0;
+}
+
+header a:hover {
+	color: #000 !important;
+	background-color: #ccc !important;
+}
+
+.booking-section {
+	position: relative;
+}
+
+.booking-section img {
+	margin: auto;
+	display: block;
+	min-width: 1000px;
+}
+
+.booking-container {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0%, -50%);
+	width: 50%;
+	flex-direction: column;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.booking-container .header {
+	background-color: #f44336;
+	padding: 8px 16px !important;
+}
+
+.booking-container .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.booking-container .row div {
+	display: flex;
+	width: 45%;
+	flex-direction: column;
+}
+
+.booking-container .row div label {
+	margin: 8px 0;
+}
+
+.booking-container .row div input {
+	padding: 8px 16px;
+}
+
+.book-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.book-list .book-card {
+	/* max-width: 400px; */
+	margin: 10px;
+    background-color: #fff;
+}
+
+.book-list .book-card img {
+	width: 100%;
+}
+
+.book-list .book-card div {
+	width: 100%;
+    margin: 10px 10px;
+} 
+.book-list .book-card h4 {
+	font-size: 24px;
+	font-weight: 400;
+	margin: 10px 10px;
+}
+
+.book-list .book-card span {
+	font-size: 16px;
+	display: block;
+	font-weight: 400;
+	margin: 10px 10px;
+}
+
+.book-list .book-card button {
+	font-size: 16px;
+	display: block;
+	font-weight: 400;
+	margin: 10px 10px;
+	width: calc(100% - 20px );
+	color: #fff !important;
+	background-color: #000 !important;
+	margin-bottom: 16px !important;
+    border: none;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.book-list .book-card button:hover {
+	color: #000 !important;
+	background-color: #ccc !important;
+}
+
+.about-section .header {
+    width: 33%;
+    display: inline-block;
+}
+
+.about-section .img-body {
+    width: 60%;
+    display: inline-block;
+}
+
+.about-section .img-body img {
+    width: 100%;
+}

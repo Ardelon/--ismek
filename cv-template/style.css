@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+nav {
+    width: 15%;
+    margin-left: 10%;
+    display: block;
+}
+
+.work-section {
+    width: 65%;
+    margin-right: 10%;
+    display: block;
+}
+
+.education-section {
+    width: 65%;
+    margin-right: 10%;
+    display: block;
+}
+
+footer {
+    
+}
